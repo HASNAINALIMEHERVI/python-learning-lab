@@ -16,7 +16,7 @@ Examples cover loops, map/filter/reduce, dictionary merging, class and instance 
 
 ## Audit status
 
-The current curated set contains 30 examples. Syntax checks passed, and guessing-game boundaries, prime classification, recursion boundaries and all nine rock-paper-scissors outcomes were checked. Original personal text files and hardcoded Windows paths are excluded. Additional supplied exercises are still under review; this repository does not claim to include them all.
+The current curated set contains 33 examples. Syntax checks passed, and guessing-game boundaries, prime classification, recursion boundaries and all nine rock-paper-scissors outcomes were checked. Original personal text files and hardcoded Windows paths are excluded. The supplied files have now been triaged into useful project groups; see [the upload audit](UPLOAD-AUDIT.md) for scope, exclusions and pending work.
 
 File mutation examples use `TemporaryDirectory`; demo data is automatically removed. The original uploaded file-deletion and rename scripts are not run against user folders.
 
@@ -33,3 +33,7 @@ python examples/type_hint_examples.py
 ```
 
 Checks covered pattern sizes 1 and 3, grade cutoff boundaries, origin/axis classification, invalid days and numeric values, empty sequences, and inherited initialization. The grading thresholds are educational examples, not UET's official policy. Type annotations are not a substitute for runtime validation.
+
+## Further reviewed work
+
+Additional English examples cover validated collections, enumeration and `finally` cleanup. A repaired [Desktop Assistant Demo](projects/desktop-assistant/README.md) now includes a standard-library text interface, fixed browser destinations, optional local speech output and eight passing regression tests. Its audio hardware is unverified. It currently lives as a project directory here; a separate repository has not been created.
