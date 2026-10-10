@@ -1,0 +1,2 @@
+# Optional local speech output only; default text mode needs no packages.
+pyttsx3
